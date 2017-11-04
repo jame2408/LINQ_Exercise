@@ -18,17 +18,28 @@ namespace LINQ
             Console.ReadLine();
         }
 
-        private static List<T> Filter<T>(T[] source, Func<T, bool> func)
+        private static IEnumerable<T> Filter<T>(T[] source, Func<T, bool> func)
         {
-            List<T> result = new List<T>();
             foreach (T item in source)
             {
                 if (func(item))
                 {
-                    result.Add(item);
+                    yield return item;
                 }
             }
-            return result;
         }
+
+        //private static List<T> Filter<T>(T[] source, Func<T, bool> func)
+        //{
+        //    List<T> result = new List<T>();
+        //    foreach (T item in source)
+        //    {
+        //        if (func(item))
+        //        {
+        //            result.Add(item);
+        //        }
+        //    }
+        //    return result;
+        //}
     }
 }
