@@ -17,7 +17,10 @@ namespace _8_Let_FindInFile
                 where content.Contains("drivers")
                 select s;
 
-            foreach (var item in result)
+            var result2 = Directory.GetFiles(@"C:\Windows", "*.ini")
+                .Where(s => File.ReadAllText(s).Contains("drivers"));
+
+            foreach (var item in result2)
             {
                 Console.WriteLine(item);
             }
