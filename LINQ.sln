@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_TakeWhile_And_SkipWhile",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_ExceptWithComplexType", "10_ExceptWithComplexType\10_ExceptWithComplexType.csproj", "{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_GroupJoin", "11_GroupJoin\11_GroupJoin.csproj", "{DD503DBE-F86E-4EBA-A317-E2C6B5729850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD503DBE-F86E-4EBA-A317-E2C6B5729850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD503DBE-F86E-4EBA-A317-E2C6B5729850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD503DBE-F86E-4EBA-A317-E2C6B5729850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD503DBE-F86E-4EBA-A317-E2C6B5729850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
