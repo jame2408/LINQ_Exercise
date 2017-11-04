@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Let_FindInFile", "8_Let_F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_TakeWhile_And_SkipWhile", "9_TakeWhile_And_SkipWhile\9_TakeWhile_And_SkipWhile.csproj", "{E6B6617B-1466-4B70-AFA4-2FAF745FF8B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_ExceptWithComplexType", "10_ExceptWithComplexType\10_ExceptWithComplexType.csproj", "{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{E6B6617B-1466-4B70-AFA4-2FAF745FF8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B6617B-1466-4B70-AFA4-2FAF745FF8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B6617B-1466-4B70-AFA4-2FAF745FF8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAFECA6-F5C0-48CC-8386-30B1963C36DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
