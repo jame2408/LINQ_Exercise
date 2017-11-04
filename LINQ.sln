@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_ElementAt", "6_ElementAt\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Let", "Let\7_Let.csproj", "{F4F41D21-C1A7-4CAC-BA27-B51907902A54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Let_FindInFile", "8_Let_FindInFile\8_Let_FindInFile.csproj", "{1DA310FE-88CD-473A-8897-2CBF070478D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F4F41D21-C1A7-4CAC-BA27-B51907902A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F41D21-C1A7-4CAC-BA27-B51907902A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F41D21-C1A7-4CAC-BA27-B51907902A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA310FE-88CD-473A-8897-2CBF070478D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA310FE-88CD-473A-8897-2CBF070478D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA310FE-88CD-473A-8897-2CBF070478D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA310FE-88CD-473A-8897-2CBF070478D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
