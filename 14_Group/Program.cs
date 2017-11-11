@@ -18,8 +18,13 @@ namespace _14_Group
                 new Employee() { ID = 1, Name = "tobe", Department_ID = 4 },
             };
 
+            // 第一個字母分群
             var result = from e in emps
-                group e by e.Name[0];
+                         group e by e.Name[0];
+
+            // 最後一個字母分群
+            //var result = from e in emps
+            //    group e by e.Name[e.Name.Length - 1];
 
             foreach (var item in result)
             {
